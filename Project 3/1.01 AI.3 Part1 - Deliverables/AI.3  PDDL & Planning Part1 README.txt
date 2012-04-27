@@ -1,0 +1,117 @@
+Christopher H. Weber
+CS5600 AI
+AI.3  PDDL & Planning Part 1 - Domain and Test Problems - README
+Due: 11/11/09 midnight
+
+
+COMMAND LINE ARGS:
+	<planner-name> -o <domain> -f <problem>
+
+	Linux:   ./blackbox -o domain_ww.pddl -f problem_ww.pddl
+	Windows:   blackbox -o domain_ww.pddl -f problem_ww.pddl
+
+
+6 SAMPLE WORLDS:
+	6 sample worlds are given in the file problem_ww.pddl.
+	Uncomment the one you wish to run.
+	They are configured as follows:
+
+	World 1 - solvable: 	-----------
+				|    |    |
+				|    |G   |
+				-----------
+				|    |    |
+				|   >|    |
+				-----------
+
+	World 2 - solvable: 	-----------
+				|   W|    |
+				|    |G   |
+				-----------
+				|    |P   |
+				|   >|    |
+				-----------
+
+
+	World 3 - unsolvable: 	-----------
+				|P  W|    |
+				|    |G   |
+				-----------
+				|    |P   |
+				|   >|    |
+				-----------
+
+
+	World 4 - solvable: 	-----------
+				|   W|    |
+				|    |G   |
+				-----------
+				|    |   W|
+				|   >|    |
+				-----------
+
+
+	World 5 - unsolvable: 	-----------
+				|    |P   |
+				|    |G   |
+				-----------
+				|    |    |
+				|   >|    |
+				-----------
+
+
+	World 6 - solvable: 	-----------
+				|    |   W|
+				|    |G   |
+				-----------
+				|    |    |
+				|   >|    |
+				-----------
+
+
+RESULTS:
+	World 1: goals at time 5: has-gold_agent 
+		Begin plan
+			1 (move agent 1-1 1-2 e)
+			2 (turn-left e n)
+			3 (move agent 1-2 2-2 n)
+			4 (grab-gold agent 2-2)
+		End plan	
+
+	World 2: goals at time 7: has-gold_agent
+		Begin plan
+			1 (turn-left e n)
+			2 (shoot agent 1-1 wumpus 2-1 n)
+			3 (move agent 1-1 2-1 n)
+			4 (turn-right n e)
+			5 (move agent 2-1 2-2 e)
+			6 (grab-gold agent 2-2)
+		End plan	
+
+	World 3: NO SOLUTION	
+
+	World 4: goals at time 6: has-gold_agent
+		Begin plan
+			1 (shoot agent 1-1 wumpus 1-2 e)
+			2 (move agent 1-1 1-2 e)
+			3 (turn-left e n)
+			4 (move agent 1-2 2-2 n)
+			5 (grab-gold agent 2-2)
+		End plan
+
+	World 5: NO SOLUTION	
+
+	World 6: goals at time 6: has-gold_agent 
+		Begin plan
+			1 (move agent 1-1 1-2 e)
+			2 (turn-left e n)
+			3 (shoot agent 1-2 wumpus 2-2 n)
+			4 (move agent 1-2 2-2 n)
+			5 (grab-gold agent 2-2)
+		End plan
+
+
+NOTES:
+	Tested only with BlackBox.
+	Might further revise to reduce the number of nodes created.	
+

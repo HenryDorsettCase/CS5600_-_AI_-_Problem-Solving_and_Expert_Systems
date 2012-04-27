@@ -1,0 +1,45 @@
+
+ff: parsing domain file
+domain 'DOMAIN_WW' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEM_SIZE_8_SEED_524286495_VARIATIONS_ADDED' defined
+ ... done.
+
+
+
+Cueing down from goal distance:    8 into depth [1][2]
+                                   7            [1]
+                                   6            [1][2]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: TURN-LEFT E N
+        1: MOVE S0-0 S1-0 N
+        2: MOVE S1-0 S2-0 N
+        3: TURN-RIGHT N E
+        4: MOVE S2-0 S2-1 E
+        5: MOVE S2-1 S2-2 E
+        6: MOVE S2-2 S2-3 E
+        7: TURN-LEFT E N
+        8: MOVE S2-3 S3-3 N
+        9: GRAB-GOLD S3-3
+     
+
+time spent:    0.00 seconds instantiating 465 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 120 facts and 160 actions
+               0.00 seconds creating final representation with 63 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 11 states, to a max depth of 2
+               0.00 seconds total time
+
+real: 	.021s
+user	.008s
+sys		.008s
+

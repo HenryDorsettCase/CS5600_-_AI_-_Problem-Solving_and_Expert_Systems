@@ -1,0 +1,65 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p8-1.pddl -W 10000
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p8-1.pddl
+Problem name: problem-size-8-seed-524286495-variations-added
+Facts loaded.
+time: 1, 349 facts and 3 exclusive pairs.
+time: 2, 351 facts and 10 exclusive pairs.
+time: 3, 352 facts and 13 exclusive pairs.
+time: 4, 353 facts and 16 exclusive pairs.
+time: 5, 355 facts and 28 exclusive pairs.
+time: 6, 357 facts and 42 exclusive pairs.
+time: 7, 360 facts and 71 exclusive pairs.
+time: 8, 365 facts and 139 exclusive pairs.
+time: 9, 370 facts and 223 exclusive pairs.
+time: 10, 375 facts and 321 exclusive pairs.
+Goals first reachable in 10 steps.
+7773 nodes created.
+
+####################################################
+goals at time 11:
+  has-gold 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Sat
+Iteration was 125
+Performing plan justification:
+   0 actions were pruned in 0.00 seconds
+
+----------------------------------------------------
+Begin plan
+1 (turn-left e n)
+2 (move s0-0 s1-0 n)
+3 (move s1-0 s2-0 n)
+4 (turn-right n e)
+5 (move s2-0 s2-1 e)
+6 (move s2-1 s2-2 e)
+7 (move s2-2 s2-3 e)
+8 (turn-left e n)
+9 (move s2-3 s3-3 n)
+10 (grab-gold s3-3)
+End plan
+----------------------------------------------------
+
+10 total actions in plan
+0 entries in hash table, 
+9 total set-creation steps (entries + hits + plan length - 1)
+10 actions tried
+
+####################################################
+Total elapsed time:   0.13 seconds
+Time in milliseconds: 127
+
+####################################################
+
+real: 	.146s
+user	.064s
+sys		.080s

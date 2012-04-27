@@ -1,0 +1,98 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p16-2.pddl -M 10000
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p16-2.pddl
+Problem name: problem-size-16-seed-1945730752-variations-added
+Facts loaded.
+time: 1, 1453 facts and 3 exclusive pairs.
+time: 2, 1455 facts and 10 exclusive pairs.
+time: 3, 1456 facts and 13 exclusive pairs.
+time: 4, 1458 facts and 23 exclusive pairs.
+time: 5, 1461 facts and 45 exclusive pairs.
+time: 6, 1465 facts and 87 exclusive pairs.
+time: 7, 1471 facts and 181 exclusive pairs.
+time: 8, 1478 facts and 333 exclusive pairs.
+time: 9, 1486 facts and 565 exclusive pairs.
+time: 10, 1494 facts and 855 exclusive pairs.
+time: 11, 1503 facts and 1250 exclusive pairs.
+time: 12, 1510 facts and 1597 exclusive pairs.
+time: 13, 1514 facts and 1799 exclusive pairs.
+time: 14, 1520 facts and 2162 exclusive pairs.
+time: 15, 1526 facts and 2552 exclusive pairs.
+time: 16, 1534 facts and 3129 exclusive pairs.
+time: 17, 1541 facts and 3661 exclusive pairs.
+time: 18, 1549 facts and 4334 exclusive pairs.
+time: 19, 1559 facts and 5275 exclusive pairs.
+time: 20, 1569 facts and 6296 exclusive pairs.
+time: 21, 1578 facts and 7288 exclusive pairs.
+time: 22, 1589 facts and 8627 exclusive pairs.
+time: 23, 1601 facts and 10228 exclusive pairs.
+time: 24, 1613 facts and 11948 exclusive pairs.
+time: 25, 1627 facts and 14133 exclusive pairs.
+time: 26, 1642 facts and 16705 exclusive pairs.
+Goals first reachable in 26 steps.
+86433 nodes created.
+
+####################################################
+goals at time 27:
+  has-gold 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Sat
+Iteration was 953
+Performing plan justification:
+   0 actions were pruned in 0.00 seconds
+
+----------------------------------------------------
+Begin plan
+1 (turn-left e n)
+2 (move s0-0 s1-0 n)
+3 (move s1-0 s2-0 n)
+4 (move s2-0 s3-0 n)
+5 (move s3-0 s4-0 n)
+6 (move s4-0 s5-0 n)
+7 (turn-right n e)
+8 (move s5-0 s5-1 e)
+9 (move s5-1 s5-2 e)
+10 (move s5-2 s5-3 e)
+11 (move s5-3 s5-4 e)
+12 (move s5-4 s5-5 e)
+13 (move s5-5 s5-6 e)
+14 (move s5-6 s5-7 e)
+15 (move s5-7 s5-8 e)
+16 (move s5-8 s5-9 e)
+17 (move s5-9 s5-10 e)
+18 (move s5-10 s5-11 e)
+19 (turn-left e n)
+20 (move s5-11 s6-11 n)
+21 (move s6-11 s7-11 n)
+22 (move s7-11 s8-11 n)
+23 (move s8-11 s9-11 n)
+24 (move s9-11 s10-11 n)
+25 (move s10-11 s11-11 n)
+26 (grab-gold s11-11)
+End plan
+----------------------------------------------------
+
+26 total actions in plan
+0 entries in hash table, 
+25 total set-creation steps (entries + hits + plan length - 1)
+26 actions tried
+
+####################################################
+Total elapsed time:   2.71 seconds
+Time in milliseconds: 2709
+
+####################################################
+
+real:	3.382s
+user:	2.235s
+sys:	 .540s
+

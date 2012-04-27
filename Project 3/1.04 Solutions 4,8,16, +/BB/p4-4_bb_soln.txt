@@ -1,0 +1,38 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p4-4.pddl -W 10000
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p4-4.pddl
+Problem name: problem-size-4-seed--1050080987-variations-added
+Facts loaded.
+time: 1, 86 facts and 6 exclusive pairs.
+time: 2, 88 facts and 13 exclusive pairs.
+time: 3, 89 facts and 15 exclusive pairs.
+time: 4, 89 facts and 11 exclusive pairs.
+time: 5, 90 facts and 16 exclusive pairs.
+time: 6, 90 facts and 14 exclusive pairs.
+time: 7, 90 facts and 13 exclusive pairs.
+time: 8, 90 facts and 13 exclusive pairs.
+1596 nodes created.
+
+----------------------------------------------------
+NO SOLUTION
+Problem not solvable: can't even reach non-mutex goals
+    Search halted after 0 steps
+    0 entries in hash table and 0 hits
+    avg set size 0
+----------------------------------------------------
+
+####################################################
+Total elapsed time:   0.02 seconds
+Time in milliseconds: 24
+
+####################################################
+
+real: 	.031s
+user	.016s
+sys		.016s

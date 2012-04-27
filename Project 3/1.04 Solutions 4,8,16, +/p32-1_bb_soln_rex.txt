@@ -1,0 +1,111 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p32-1.pddl -M 20000 -maxauto 500
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p32-1.pddl
+Problem name: problem-size-32-seed-349383447-variations-added
+Facts loaded.
+time: 1, 5966 facts and 6 exclusive pairs.
+time: 2, 5968 facts and 13 exclusive pairs.
+time: 3, 5970 facts and 23 exclusive pairs.
+time: 4, 5972 facts and 35 exclusive pairs.
+time: 5, 5975 facts and 61 exclusive pairs.
+time: 6, 5978 facts and 90 exclusive pairs.
+time: 7, 5983 facts and 162 exclusive pairs.
+time: 8, 5990 facts and 309 exclusive pairs.
+time: 9, 5998 facts and 534 exclusive pairs.
+time: 10, 6006 facts and 817 exclusive pairs.
+time: 11, 6015 facts and 1210 exclusive pairs.
+time: 12, 6025 facts and 1740 exclusive pairs.
+time: 13, 6036 facts and 2438 exclusive pairs.
+time: 14, 6049 facts and 3422 exclusive pairs.
+time: 15, 6064 facts and 4761 exclusive pairs.
+time: 16, 6078 facts and 6194 exclusive pairs.
+time: 17, 6092 facts and 7812 exclusive pairs.
+time: 18, 6107 facts and 9764 exclusive pairs.
+time: 19, 6124 facts and 12250 exclusive pairs.
+time: 20, 6141 facts and 15012 exclusive pairs.
+time: 21, 6160 facts and 18438 exclusive pairs.
+time: 22, 6179 facts and 22210 exclusive pairs.
+time: 23, 6198 facts and 26324 exclusive pairs.
+time: 24, 6220 facts and 31543 exclusive pairs.
+time: 25, 6240 facts and 36667 exclusive pairs.
+time: 26, 6260 facts and 42169 exclusive pairs.
+time: 27, 6281 facts and 48372 exclusive pairs.
+time: 28, 6302 facts and 54989 exclusive pairs.
+time: 29, 6319 facts and 60613 exclusive pairs.
+time: 30, 6342 facts and 68781 exclusive pairs.
+time: 31, 6367 facts and 78259 exclusive pairs.
+time: 32, 6394 facts and 89172 exclusive pairs.
+time: 33, 6422 facts and 101234 exclusive pairs.
+Goals first reachable in 33 steps.
+427935 nodes created.
+
+####################################################
+goals at time 34:
+  has-gold 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Sat
+Iteration was 1585
+Performing plan justification:
+   0 actions were pruned in 0.00 seconds
+
+----------------------------------------------------
+Begin plan
+1 (turn-left e n)
+2 (move s0-0 s1-0 n)
+3 (move s1-0 s2-0 n)
+4 (move s2-0 s3-0 n)
+5 (move s3-0 s4-0 n)
+6 (move s4-0 s5-0 n)
+7 (move s5-0 s6-0 n)
+8 (move s6-0 s7-0 n)
+9 (move s7-0 s8-0 n)
+10 (move s8-0 s9-0 n)
+11 (move s9-0 s10-0 n)
+12 (move s10-0 s11-0 n)
+13 (move s11-0 s12-0 n)
+14 (move s12-0 s13-0 n)
+15 (move s13-0 s14-0 n)
+16 (move s14-0 s15-0 n)
+17 (turn-right n e)
+18 (move s15-0 s15-1 e)
+19 (move s15-1 s15-2 e)
+20 (move s15-2 s15-3 e)
+21 (move s15-3 s15-4 e)
+22 (move s15-4 s15-5 e)
+23 (move s15-5 s15-6 e)
+24 (move s15-6 s15-7 e)
+25 (move s15-7 s15-8 e)
+26 (move s15-8 s15-9 e)
+27 (move s15-9 s15-10 e)
+28 (move s15-10 s15-11 e)
+29 (move s15-11 s15-12 e)
+30 (move s15-12 s15-13 e)
+31 (move s15-13 s15-14 e)
+32 (move s15-14 s15-15 e)
+33 (grab-gold s15-15)
+End plan
+----------------------------------------------------
+
+33 total actions in plan
+0 entries in hash table, 
+32 total set-creation steps (entries + hits + plan length - 1)
+33 actions tried
+
+####################################################
+Total elapsed time:   25.95 seconds
+Time in milliseconds: 25954
+
+####################################################
+
+real	26.929s
+user	23.553s
+sys	 2.704s

@@ -1,0 +1,63 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p8-4.pddl -W 10000
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p8-4.pddl
+Problem name: problem-size-8-seed-524286495-variations-added
+Facts loaded.
+time: 1, 345 facts and 3 exclusive pairs.
+time: 2, 347 facts and 10 exclusive pairs.
+time: 3, 348 facts and 13 exclusive pairs.
+time: 4, 349 facts and 16 exclusive pairs.
+time: 5, 351 facts and 28 exclusive pairs.
+time: 6, 353 facts and 42 exclusive pairs.
+time: 7, 355 facts and 58 exclusive pairs.
+time: 8, 358 facts and 90 exclusive pairs.
+time: 9, 360 facts and 111 exclusive pairs.
+time: 10, 362 facts and 134 exclusive pairs.
+time: 11, 366 facts and 207 exclusive pairs.
+time: 12, 368 facts and 240 exclusive pairs.
+time: 13, 369 facts and 249 exclusive pairs.
+time: 14, 370 facts and 264 exclusive pairs.
+time: 15, 372 facts and 305 exclusive pairs.
+time: 16, 373 facts and 321 exclusive pairs.
+time: 17, 374 facts and 334 exclusive pairs.
+time: 18, 376 facts and 382 exclusive pairs.
+time: 19, 380 facts and 500 exclusive pairs.
+time: 20, 382 facts and 550 exclusive pairs.
+time: 21, 385 facts and 642 exclusive pairs.
+time: 22, 386 facts and 661 exclusive pairs.
+time: 23, 389 facts and 772 exclusive pairs.
+time: 24, 390 facts and 803 exclusive pairs.
+time: 25, 390 facts and 792 exclusive pairs.
+time: 26, 390 facts and 786 exclusive pairs.
+time: 27, 390 facts and 782 exclusive pairs.
+time: 28, 390 facts and 780 exclusive pairs.
+time: 29, 390 facts and 777 exclusive pairs.
+time: 30, 390 facts and 776 exclusive pairs.
+time: 31, 390 facts and 774 exclusive pairs.
+time: 32, 390 facts and 773 exclusive pairs.
+time: 33, 390 facts and 773 exclusive pairs.
+27499 nodes created.
+
+----------------------------------------------------
+NO SOLUTION
+Problem not solvable: can't even reach non-mutex goals
+    Search halted after 0 steps
+    0 entries in hash table and 0 hits
+    avg set size 0
+----------------------------------------------------
+
+####################################################
+Total elapsed time:   0.64 seconds
+Time in milliseconds: 643
+
+####################################################
+
+real: 	.691s
+user	.376s
+sys		.304s

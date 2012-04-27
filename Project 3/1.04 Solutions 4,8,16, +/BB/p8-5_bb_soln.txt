@@ -1,0 +1,55 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p8-5.pddl -W 10000
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p8-5.pddl
+Problem name: problem-size-8-seed-524286495-variations-added
+Facts loaded.
+time: 1, 348 facts and 3 exclusive pairs.
+time: 2, 350 facts and 10 exclusive pairs.
+time: 3, 351 facts and 13 exclusive pairs.
+time: 4, 352 facts and 16 exclusive pairs.
+time: 5, 354 facts and 28 exclusive pairs.
+time: 6, 356 facts and 42 exclusive pairs.
+time: 7, 359 facts and 71 exclusive pairs.
+time: 8, 364 facts and 139 exclusive pairs.
+time: 9, 368 facts and 200 exclusive pairs.
+time: 10, 371 facts and 246 exclusive pairs.
+time: 11, 376 facts and 360 exclusive pairs.
+time: 12, 379 facts and 423 exclusive pairs.
+time: 13, 380 facts and 425 exclusive pairs.
+time: 14, 384 facts and 537 exclusive pairs.
+time: 15, 388 facts and 657 exclusive pairs.
+time: 16, 390 facts and 699 exclusive pairs.
+time: 17, 393 facts and 790 exclusive pairs.
+time: 18, 394 facts and 807 exclusive pairs.
+time: 19, 396 facts and 876 exclusive pairs.
+time: 20, 397 facts and 906 exclusive pairs.
+time: 21, 397 facts and 892 exclusive pairs.
+time: 22, 397 facts and 885 exclusive pairs.
+time: 23, 397 facts and 884 exclusive pairs.
+time: 24, 397 facts and 883 exclusive pairs.
+time: 25, 397 facts and 883 exclusive pairs.
+21363 nodes created.
+
+----------------------------------------------------
+NO SOLUTION
+Problem not solvable: can't even reach non-mutex goals
+    Search halted after 0 steps
+    0 entries in hash table and 0 hits
+    avg set size 0
+----------------------------------------------------
+
+####################################################
+Total elapsed time:   0.52 seconds
+Time in milliseconds: 517
+
+####################################################
+
+real: 	.559s
+user	.308s
+sys		.256s

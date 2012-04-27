@@ -1,0 +1,15 @@
+
+ff: parsing domain file
+domain 'DOMAIN_WW' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEM_SIZE_4_SEED_-1050080987_VARIATIONS_ADDED' defined
+ ... done.
+
+
+ff: goal can be simplified to FALSE. No plan will solve it
+
+real: 	.004s
+user	.004s
+sys		.004s
+

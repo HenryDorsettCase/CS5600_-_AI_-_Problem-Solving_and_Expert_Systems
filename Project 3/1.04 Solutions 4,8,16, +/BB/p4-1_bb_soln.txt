@@ -1,0 +1,57 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p4-1.pddl -W 10000
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p4-1.pddl
+Problem name: problem-size-4-seed--1050080987-variations-added
+Facts loaded.
+time: 1, 87 facts and 6 exclusive pairs.
+time: 2, 89 facts and 13 exclusive pairs.
+time: 3, 90 facts and 15 exclusive pairs.
+time: 4, 90 facts and 11 exclusive pairs.
+time: 5, 91 facts and 16 exclusive pairs.
+time: 6, 93 facts and 27 exclusive pairs.
+Goals first reachable in 6 steps.
+1221 nodes created.
+
+####################################################
+goals at time 7:
+  has-gold 
+
+
+----------------------------------------------------
+Invoking solver graphplan
+Result is Sat
+Iteration was 42
+Performing plan justification:
+   0 actions were pruned in 0.00 seconds
+
+----------------------------------------------------
+Begin plan
+1 (turn-left e n)
+2 (shoot s0-0 s1-0 n)
+3 (move s0-0 s1-0 n)
+4 (turn-right n e)
+5 (move s1-0 s1-1 e)
+6 (grab-gold s1-1)
+End plan
+----------------------------------------------------
+
+6 total actions in plan
+0 entries in hash table, 
+5 total set-creation steps (entries + hits + plan length - 1)
+6 actions tried
+
+####################################################
+Total elapsed time:   0.02 seconds
+Time in milliseconds: 18
+
+####################################################
+
+real: 	.025s
+user	.008s
+sys		.020s

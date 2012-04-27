@@ -1,0 +1,60 @@
+#
+# Copyright (C) 2006, Board of Trustees of the University of Illinois.
+#
+# The program is copyrighted by the University of Illinois, and should
+# not be distributed without prior approval.  Commercialization of this
+# product requires prior licensing from the University of Illinois.
+# Commercialization includes the integration of this code in part or
+# whole into a product for resale.
+#
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Author: C. W. Hsu, B. W. Wah, R. Y. Huang, Y. X. Chen
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Parsing domain file
+ domain 'DOMAIN_WW' defined
+Parsing problem file
+ problem 'PROBLEM_SIZE_8_SEED_524286495_VARIATIONS_ADDED' defined
+
+
+
+checking for cyclic := effects --- OK.
+
+
+
+
+; Time 0.00
+; ParsingTime 0.00
+; NrActions 21
+; MakeSpan
+; MetricValue
+; PlanningTechnique Modified-FF(enforced hill-climbing search) as the subplanner
+
+0.001: (TURN-LEFT E N) [1]
+1.002: (MOVE S0-0 S1-0 N) [1]
+2.003: (MOVE S1-0 S2-0 N) [1]
+3.004: (TURN-RIGHT N E) [1]
+4.005: (MOVE S2-0 S2-1 E) [1]
+5.006: (MOVE S2-1 S2-2 E) [1]
+6.007: (MOVE S2-2 S2-3 E) [1]
+7.008: (TURN-LEFT E N) [1]
+8.009: (MOVE S2-3 S3-3 N) [1]
+9.010: (MOVE S3-3 S4-3 N) [1]
+10.011: (TURN-RIGHT N E) [1]
+11.012: (MOVE S4-3 S4-4 E) [1]
+12.013: (MOVE S4-4 S4-5 E) [1]
+13.014: (MOVE S4-5 S4-6 E) [1]
+14.015: (TURN-LEFT E N) [1]
+15.016: (MOVE S4-6 S5-6 N) [1]
+16.017: (MOVE S5-6 S6-6 N) [1]
+17.018: (MOVE S6-6 S7-6 N) [1]
+18.019: (TURN-RIGHT N E) [1]
+19.020: (MOVE S7-6 S7-7 E) [1]
+20.021: (GRAB-GOLD S7-7) [1]
+
+real: 	.016s
+user	.016s
+sys		.000s
+
+

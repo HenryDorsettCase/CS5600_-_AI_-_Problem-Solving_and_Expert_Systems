@@ -1,0 +1,93 @@
+blackbox version 43
+command line:  ./blackbox -o domain_ww.pddl -f p16-5.pddl -M 10000 -maxauto 100
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: domain_ww.pddl
+Loading fact file: p16-5.pddl
+Problem name: problem-size-16-seed-1945730752-variations-added
+Facts loaded.
+time: 1, 1452 facts and 3 exclusive pairs.
+time: 2, 1454 facts and 10 exclusive pairs.
+time: 3, 1455 facts and 13 exclusive pairs.
+time: 4, 1457 facts and 23 exclusive pairs.
+time: 5, 1460 facts and 45 exclusive pairs.
+time: 6, 1464 facts and 87 exclusive pairs.
+time: 7, 1470 facts and 181 exclusive pairs.
+time: 8, 1477 facts and 333 exclusive pairs.
+time: 9, 1485 facts and 565 exclusive pairs.
+time: 10, 1493 facts and 855 exclusive pairs.
+time: 11, 1502 facts and 1250 exclusive pairs.
+time: 12, 1509 facts and 1597 exclusive pairs.
+time: 13, 1513 facts and 1799 exclusive pairs.
+time: 14, 1519 facts and 2162 exclusive pairs.
+time: 15, 1525 facts and 2552 exclusive pairs.
+time: 16, 1533 facts and 3129 exclusive pairs.
+time: 17, 1540 facts and 3661 exclusive pairs.
+time: 18, 1547 facts and 4236 exclusive pairs.
+time: 19, 1556 facts and 5066 exclusive pairs.
+time: 20, 1564 facts and 5849 exclusive pairs.
+time: 21, 1574 facts and 6940 exclusive pairs.
+time: 22, 1584 facts and 8119 exclusive pairs.
+time: 23, 1598 facts and 9960 exclusive pairs.
+time: 24, 1610 facts and 11654 exclusive pairs.
+time: 25, 1624 facts and 13813 exclusive pairs.
+time: 26, 1638 facts and 16169 exclusive pairs.
+time: 27, 1652 facts and 18710 exclusive pairs.
+time: 28, 1663 facts and 20815 exclusive pairs.
+time: 29, 1671 facts and 22381 exclusive pairs.
+time: 30, 1680 facts and 24232 exclusive pairs.
+time: 31, 1683 facts and 24779 exclusive pairs.
+time: 32, 1686 facts and 25343 exclusive pairs.
+time: 33, 1687 facts and 25463 exclusive pairs.
+time: 34, 1688 facts and 25583 exclusive pairs.
+time: 35, 1689 facts and 25712 exclusive pairs.
+time: 36, 1690 facts and 25836 exclusive pairs.
+time: 37, 1691 facts and 25962 exclusive pairs.
+time: 38, 1691 facts and 25846 exclusive pairs.
+time: 39, 1691 facts and 25720 exclusive pairs.
+time: 40, 1691 facts and 25601 exclusive pairs.
+time: 41, 1691 facts and 25494 exclusive pairs.
+time: 42, 1691 facts and 25398 exclusive pairs.
+time: 43, 1691 facts and 25312 exclusive pairs.
+time: 44, 1691 facts and 25238 exclusive pairs.
+time: 45, 1691 facts and 25176 exclusive pairs.
+time: 46, 1691 facts and 25121 exclusive pairs.
+time: 47, 1691 facts and 25064 exclusive pairs.
+time: 48, 1691 facts and 25014 exclusive pairs.
+time: 49, 1691 facts and 24973 exclusive pairs.
+time: 50, 1691 facts and 24939 exclusive pairs.
+time: 51, 1691 facts and 24907 exclusive pairs.
+time: 52, 1691 facts and 24884 exclusive pairs.
+time: 53, 1691 facts and 24865 exclusive pairs.
+time: 54, 1691 facts and 24848 exclusive pairs.
+time: 55, 1691 facts and 24833 exclusive pairs.
+time: 56, 1691 facts and 24820 exclusive pairs.
+time: 57, 1691 facts and 24809 exclusive pairs.
+time: 58, 1691 facts and 24801 exclusive pairs.
+time: 59, 1691 facts and 24795 exclusive pairs.
+time: 60, 1691 facts and 24792 exclusive pairs.
+time: 61, 1691 facts and 24791 exclusive pairs.
+time: 62, 1691 facts and 24790 exclusive pairs.
+time: 63, 1691 facts and 24790 exclusive pairs.
+239662 nodes created.
+
+----------------------------------------------------
+NO SOLUTION
+Problem not solvable: can't even reach non-mutex goals
+    Search halted after 0 steps
+    0 entries in hash table and 0 hits
+    avg set size 0
+----------------------------------------------------
+
+####################################################
+Total elapsed time:   18.11 seconds
+Time in milliseconds: 18108
+
+####################################################
+
+real:	18.307s
+user:	15.895s
+sys:	 2.396s
